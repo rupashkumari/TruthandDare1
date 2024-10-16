@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "502315548379",
+    "project_id": "fluttersignin-35434",
+    "storage_bucket": "fluttersignin-35434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502315548379:android:047024d3cc0e7c3dc516fe",
+        "android_client_info": {
+          "package_name": "com.truth.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502315548379-ho98cdainct3a5g5hcd0h16vs5r95f62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtw2DnUBh7mzNN3PEi5Rondrye5FPBsbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502315548379-ho98cdainct3a5g5hcd0h16vs5r95f62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "502315548379-9fu0kh8b9vh3uqjr0unqv96q41cjhs2b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.truth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
