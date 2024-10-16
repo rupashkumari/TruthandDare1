@@ -21,6 +21,7 @@ User? _user;
     super.initState();
   _auth.authStateChanges().listen((User?event){
   setState(() {
+    print("HEy");
     _user= event;
   }
   );
@@ -98,7 +99,4 @@ Future<void> _handleGoogleSignIn() async{
     print(error);
   }
 }
-
-
-
 }
