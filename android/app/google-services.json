@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:502315548379:android:047024d3cc0e7c3dc516fe",
         "android_client_info": {
-          "package_name": "com.truth.app"
+          "package_name": "com.example.truth"
         }
       },
       "oauth_client": [
