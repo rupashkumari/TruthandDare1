@@ -7,10 +7,10 @@ import 'package:truth/homepage.dart';
   
   @override
   Widget build(BuildContext context) {
-    // final AuthService authService = AuthService();
-
     return Scaffold(
-    appBar: getAppBar(),
+    appBar: AppBar(
+       title: const Text("Welcome to the Game"),
+    ),
     body: getBody(context),
        backgroundColor: const Color.fromARGB(255, 250, 203, 203),
        
@@ -27,7 +27,7 @@ import 'package:truth/homepage.dart';
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Container(
+       Container(
            width: MediaQuery.of(context).size.width/1.2 ,
           
            height: 100,
@@ -89,8 +89,8 @@ import 'package:truth/homepage.dart';
       backgroundColor: const Color.fromARGB(255, 250, 203, 203),
       elevation: 0.0,
       iconTheme: const IconThemeData(color: Colors.white),
-      //
       centerTitle: true,
     );
   }
+  
  

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-//import 'package:truth/homepage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:truth/home_page.dart';
-//import 'package:truth/truth.dart';
 
 
 void main() async{

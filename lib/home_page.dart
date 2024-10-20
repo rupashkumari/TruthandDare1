@@ -2,6 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:sign_in_button/sign_in_button.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:truth/screen.dart';
+
 
 
 class HomePage extends StatefulWidget {
@@ -21,7 +23,6 @@ User? _user;
     super.initState();
   _auth.authStateChanges().listen((User?event){
   setState(() {
-    print("HEy");
     _user= event;
   }
   );
@@ -35,11 +36,12 @@ User? _user;
       appBar: AppBar(
         title: const Text("Google SignIn"),
       ),
-      body: _user !=null? _userInfo() : _googleSignInButton() ,
+      body: _user !=null ? _userInfo() : _googleSignInButton() ,
     );
   }
+
 Widget _googleSignInButton(){
-  return Center(
+  return  Center(
     child: SizedBox(
     height: 50,
     child: SignInButton(
@@ -68,13 +70,16 @@ Widget _userInfo(){
             ),
           ),
         ),
-        Text(_user?.email ?? ""),
-        Text(_user?.displayName ?? ""),
+        Text(_user!.email!),
+        Text(_user!.displayName ?? ""),
         MaterialButton(
           color: Colors.red,
           child: const Text("Sign Out"),
-          onPressed:() async{
+          onPressed: () async{
           await _auth.signOut();
+         setState(() {
+           _user= null;
+         });
           }
         ),
         
@@ -93,10 +98,26 @@ Future<void> _handleGoogleSignIn() async{
         idToken: googleAuth.idToken,
       );
 
-      await _auth.signInWithCredential(credential);
+       UserCredential userCredential = await _auth.signInWithCredential(credential);
+       if (userCredential.user != null) {
+        print('User signed in: ${userCredential.user?.email}');
+        
+         Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (context) => const Screen()),
+      );
+       }
+       else{
+        print('Error: UserCredential is null');
+       }
+    }
+    else{
+      print('Error: Google sign-in cancelled by user');
     }
   } catch (error) {
-    print(error);
+    print("Sign-in error: $error");
+     ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Sign-in failed: $error')),
+    );
   }
 }
 }
