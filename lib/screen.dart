@@ -8,8 +8,7 @@ import 'package:truth/homepage.dart';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appBar: AppBar(
-       title: const Text("Welcome to the Game"),
+    appBar: getAppBar(
     ),
     body: getBody(context),
        backgroundColor: const Color.fromARGB(255, 250, 203, 203),

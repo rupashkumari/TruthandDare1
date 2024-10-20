@@ -44,40 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBxAsZmfo9Sas7u0467w6mxZbp7PC6xpBU',
-    appId: '1:502315548379:web:bcdd154c8e20de87c516fe',
-    messagingSenderId: '502315548379',
-    projectId: 'fluttersignin-35434',
-    authDomain: 'fluttersignin-35434.firebaseapp.com',
-    storageBucket: 'fluttersignin-35434.appspot.com',
-    measurementId: 'G-JKS15TG9YV',
+    apiKey: 'AIzaSyCzv5T93ieTfxzD8y-RMdCMgicSfVGIsMk',
+    appId: '1:34200266054:web:751a4715e9a6a6cef77147',
+    messagingSenderId: '34200266054',
+    projectId: 'fluttersignin-30b78',
+    authDomain: 'fluttersignin-30b78.firebaseapp.com',
+    storageBucket: 'fluttersignin-30b78.appspot.com',
+    measurementId: 'G-CB67FZDW9Q',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBtw2DnUBh7mzNN3PEi5Rondrye5FPBsbs',
-    appId: '1:502315548379:android:047024d3cc0e7c3dc516fe',
-    messagingSenderId: '502315548379',
-    projectId: 'fluttersignin-35434',
-    storageBucket: 'fluttersignin-35434.appspot.com',
+    apiKey: 'AIzaSyAD5G5kbVWLzYOft79N1jy9uRPmoKsC7VY',
+    appId: '1:34200266054:android:37f0f18e9b469eb2f77147',
+    messagingSenderId: '34200266054',
+    projectId: 'fluttersignin-30b78',
+    storageBucket: 'fluttersignin-30b78.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBCrta77ciDWbrUsdNwua2Mqb8uRtBA4vY',
-    appId: '1:502315548379:ios:d28dce4852a51eacc516fe',
-    messagingSenderId: '502315548379',
-    projectId: 'fluttersignin-35434',
-    storageBucket: 'fluttersignin-35434.appspot.com',
-    iosClientId: '502315548379-9fu0kh8b9vh3uqjr0unqv96q41cjhs2b.apps.googleusercontent.com',
+    apiKey: 'AIzaSyB4k-z7A0KV1bijQ9LvZgoSjQSRdSnZ568',
+    appId: '1:34200266054:ios:4bde8628f2185becf77147',
+    messagingSenderId: '34200266054',
+    projectId: 'fluttersignin-30b78',
+    storageBucket: 'fluttersignin-30b78.appspot.com',
+    iosClientId: '34200266054-9k8qr1bsoankjfplrovtsoeaivoj5uj5.apps.googleusercontent.com',
     iosBundleId: 'com.example.truth',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBxAsZmfo9Sas7u0467w6mxZbp7PC6xpBU',
-    appId: '1:502315548379:web:bcdd154c8e20de87c516fe',
-    messagingSenderId: '502315548379',
-    projectId: 'fluttersignin-35434',
-    authDomain: 'fluttersignin-35434.firebaseapp.com',
-    storageBucket: 'fluttersignin-35434.appspot.com',
-    measurementId: 'G-JKS15TG9YV',
+    apiKey: 'AIzaSyCzv5T93ieTfxzD8y-RMdCMgicSfVGIsMk',
+    appId: '1:34200266054:web:d57c0d7706af230ff77147',
+    messagingSenderId: '34200266054',
+    projectId: 'fluttersignin-30b78',
+    authDomain: 'fluttersignin-30b78.firebaseapp.com',
+    storageBucket: 'fluttersignin-30b78.appspot.com',
+    measurementId: 'G-MJ0E9NBSQD',
   );
+
 }

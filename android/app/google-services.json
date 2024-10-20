@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "502315548379",
-    "project_id": "fluttersignin-35434",
-    "storage_bucket": "fluttersignin-35434.appspot.com"
+    "project_number": "34200266054",
+    "project_id": "fluttersignin-30b78",
+    "storage_bucket": "fluttersignin-30b78.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:502315548379:android:047024d3cc0e7c3dc516fe",
+        "mobilesdk_app_id": "1:34200266054:android:37f0f18e9b469eb2f77147",
         "android_client_info": {
           "package_name": "com.example.truth"
         }
       },
       "oauth_client": [
         {
-          "client_id": "502315548379-ho98cdainct3a5g5hcd0h16vs5r95f62.apps.googleusercontent.com",
+          "client_id": "34200266054-sekea2kjb3f6242vqbuf75rl6e6a1t9t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtw2DnUBh7mzNN3PEi5Rondrye5FPBsbs"
+          "current_key": "AIzaSyAD5G5kbVWLzYOft79N1jy9uRPmoKsC7VY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "502315548379-ho98cdainct3a5g5hcd0h16vs5r95f62.apps.googleusercontent.com",
+              "client_id": "34200266054-sekea2kjb3f6242vqbuf75rl6e6a1t9t.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "502315548379-9fu0kh8b9vh3uqjr0unqv96q41cjhs2b.apps.googleusercontent.com",
+              "client_id": "34200266054-9k8qr1bsoankjfplrovtsoeaivoj5uj5.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.truth"
