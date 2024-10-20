@@ -89,7 +89,7 @@ Widget _userInfo(){
 }
 Future<void> _handleGoogleSignIn() async{
   try {
-    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+    final GoogleSignInAccount? googleUser = await GoogleSignIn(scopes: <String>["email","profile",]).signIn();
     if(googleUser != null){
       final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
 
